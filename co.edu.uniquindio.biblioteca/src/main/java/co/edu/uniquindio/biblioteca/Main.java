@@ -5,11 +5,4 @@ public class Main {
 
 
     }
-    libro libro1 = new libro();
-
-    libro libro2 = new libro();
-    libro libro3 = new libro();
-    libro libro4 = new libro();
-    libro libro5 = new libro();
-
 }
