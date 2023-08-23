@@ -7,6 +7,7 @@ public class libro {
   private String autor;
   private String editorial;
   private int aniopublicacion;
+  private int numeropaginas;
 
   public String getNombre() {
     return nombre;
@@ -40,6 +41,21 @@ public class libro {
     this.editorial = editorial;
   }
 
+  public int getAniopublicacion() {
+    return aniopublicacion;
+  }
+
+  public void setAniopublicacion(int aniopublicacion) {
+    this.aniopublicacion = aniopublicacion;
+  }
+
+  public int getNumeropaginas() {
+    return numeropaginas;
+  }
+
+  public void setNumeropaginas(int numeropaginas) {
+    this.numeropaginas = numeropaginas;
+  }
 
 
 
