@@ -60,7 +60,27 @@ public class Main {
     //contar cuantos titulos inician en consonate
     public static void contarConsonantes(libro libro1, libro libro2, libro libro3, libro libro4, libro libro5){
         int contadorConsonate = 0;
-        if ();
+        char caracter1 =libro1.getNombre().charAt(0);
+        char caracter2 =libro2.getNombre().charAt(0);
+        char caracter3 =libro3.getNombre().charAt(0);
+        char caracter4 =libro4.getNombre().charAt(0);
+        char caracter5 =libro5.getNombre().charAt(0);
+        if (caracter1 != 'a' && caracter1 !='e' && caracter1 !='i' && caracter1 !='o' && caracter1 !='u') {
+            contadorConsonate+=1;
+        }
+        if (caracter2 != 'a' && caracter2 !='e' && caracter2 !='i' && caracter2 !='o' && caracter2 !='u') {
+            contadorConsonate+=1;
+        }
+        if (caracter3 != 'a' && caracter3 !='e' && caracter3 !='i' && caracter3 !='o' && caracter3 !='u') {
+            contadorConsonate+=1;
+        }
+        if (caracter4 != 'a' && caracter4 !='e' && caracter4 !='i' && caracter4 !='o' && caracter4 !='u') {
+            contadorConsonate+=1;
+        }
+        if (caracter5 != 'a' && caracter5 !='e' && caracter5 !='i' && caracter5 !='o'  && caracter5 !='u') {
+            contadorConsonate+=1;
+        }
+        System.out.println(contadorConsonate+" libros comiensan por consonante");
 
     }
 
