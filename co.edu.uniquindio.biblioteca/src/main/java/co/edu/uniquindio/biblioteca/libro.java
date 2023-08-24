@@ -59,25 +59,7 @@ public class libro {
 
 
 
-// creacion de libros
-  private static void creacionlibros(){
 
-    libro libro1 = new libro();
-    libro1.setNombre("caculo");
-
-    libro libro2 = new libro();
-    libro2.setNombre("caculo");
-
-    libro libro3 = new libro();
-    libro3.setNombre("caculo");
-
-    libro libro4 = new libro();
-    libro4.setNombre("caculo");
-
-    libro libro5 = new libro();
-    libro5.setNombre("caculo");
-
-  }
 
 }
 
