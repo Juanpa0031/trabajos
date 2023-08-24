@@ -3,59 +3,54 @@ import co.edu.uniquindio.biblioteca.libro;
 public class Main {
 
     public static void main(String[] args) {
-        creacionlibros();
 
-    }
+        libro libro1 = new libro();
+        libro1.setNombre("matematicas");
+        libro1.setGenero("educativo");
+        libro1.setAutor("victor");
+        libro1.setEditorial("norma");
+        libro1.setAniopublicacion(1987);
+        libro1.setNumeropaginas(145);
 
-// creacion de libros
-    private static void creacionlibros(){
+        libro libro2 = new libro();
+        libro2.setNombre("una habitacion propia");
+        libro2.setGenero("novela");
+        libro2.setAutor("virginia wolf");
+        libro2.setEditorial("hogart press");
+        libro2.setAniopublicacion(1929);
+        libro2.setNumeropaginas(147);
 
-            libro libro1 = new libro();
-            libro1.setNombre("matematicas");
-            libro1.setGenero("educativo");
-            libro1.setAutor("victor");
-            libro1.setEditorial("norma");
-            libro1.setAniopublicacion(1987);
-            libro1.setNumeropaginas(145);
+        libro libro3 = new libro();
+        libro3.setNombre("carta al padre");
+        libro3.setGenero("no ficcion");
+        libro3.setAutor("franz kafka");
+        libro3.setEditorial("panamericana");
+        libro3.setAniopublicacion(1919);
+        libro3.setNumeropaginas(47);
 
-            libro libro2 = new libro();
-            libro2.setNombre("una habitacion propia");
-            libro2.setGenero("novela");
-            libro2.setAutor("virginia wolf");
-            libro2.setEditorial("hogart press");
-            libro2.setAniopublicacion(1929);
-            libro2.setNumeropaginas(147);
+        libro libro4 = new libro();
+        libro4.setNombre("el gato negro");
+        libro4.setGenero("terror");
+        libro4.setAutor("edgar allan poe");
+        libro4.setEditorial("pluton ediciones");
+        libro4.setAniopublicacion(1843);
+        libro4.setNumeropaginas(61);
 
-            libro libro3 = new libro();
-            libro3.setNombre("carta al padre");
-            libro3.setGenero("no ficcion");
-            libro3.setAutor("franz kafka");
-            libro3.setEditorial("panamericana");
-            libro3.setAniopublicacion(1919);
-            libro3.setNumeropaginas(47);
-
-            libro libro4 = new libro();
-            libro4.setNombre("el gato negro");
-            libro4.setGenero("terror");
-            libro4.setAutor("edgar allan poe");
-            libro4.setEditorial("pluton ediciones");
-            libro4.setAniopublicacion(1843);
-            libro4.setNumeropaginas(61);
-
-            libro libro5 = new libro();
-            libro5.setNombre("calculo integral");
-            libro5.setGenero("educativo");
-            libro5.setAutor("mario");
-            libro5.setEditorial("panamericana");
-            libro5.setAniopublicacion(1942);
-            libro5.setNumeropaginas(134);
+        libro libro5 = new libro();
+        libro5.setNombre("calculo integral");
+        libro5.setGenero("educativo");
+        libro5.setAutor("mario");
+        libro5.setEditorial("panamericana");
+        libro5.setAniopublicacion(1942);
+        libro5.setNumeropaginas(134);
 
         contarConsonantes(libro1,libro2,libro3,libro4,libro5);
         cambiarNombre(libro1,libro2,libro3,libro4,libro5);
         masPaginas(libro1,libro2,libro3,libro4,libro5);
         sonEducativos(libro1,libro2,libro3,libro4,libro5);
 
-        }
+
+    }
 
     //contar cuantos titulos inician en consonate
     public static void contarConsonantes(libro libro1, libro libro2, libro libro3, libro libro4, libro libro5){
