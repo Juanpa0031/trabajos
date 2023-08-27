@@ -1,5 +1,5 @@
 package co.edu.uniquindio.biblioteca;
-import co.edu.uniquindio.biblioteca.libro;
+import co.edu.uniquindio.biblioteca.model.libro;
 public class Main {
 
     public static void main(String[] args) {
